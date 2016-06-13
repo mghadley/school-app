@@ -1,4 +1,4 @@
-class ClassroomController < ApplicationController
+class ClassroomsController < ApplicationController
 	before_action :school_instance
 	before_action :classroom_instance, except: [:new, :index, :create]
 
@@ -36,7 +36,7 @@ class ClassroomController < ApplicationController
 
   def destroy
   	@classroom.destroy
-  	redirect_to school_classroom_index_path(@school)
+  	redirect_to school_classrooms_path(@school)
   end
 
   private

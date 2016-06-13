@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe School, type: :model do
-  let(:school) {FactoryGirl.create(:school)}
-  let(:small_school) {FactoryGirl.create(:school, :small)}
+  let(:school) { FactoryGirl.create(:school) }
+  let(:small_school) { FactoryGirl.create(:school, :small) }
 
   describe 'attributes' do 
     it {should have_many(:classrooms)}

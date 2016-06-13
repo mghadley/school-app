@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/environment.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/application.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/application.rb": [
         1,
         null,
         1,
@@ -45,12 +45,12 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/boot.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/environments/test.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/environments/test.rb": [
         1,
         null,
         null,
@@ -94,7 +94,7 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/initializers/assets.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -107,7 +107,7 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/initializers/backtrace_silencers.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -116,18 +116,18 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/initializers/cookies_serializer.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/initializers/filter_parameter_logging.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/initializers/inflections.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -145,18 +145,18 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/initializers/mime_types.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/initializers/session_store.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/initializers/wrap_parameters.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -172,11 +172,11 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/factories/classroom.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/factories/classroom.rb": [
         1,
         1,
         1,
-        21,
+        27,
         null,
         1,
         1,
@@ -184,11 +184,11 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/factories/school.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/factories/school.rb": [
         1,
         1,
         1,
-        60,
+        72,
         null,
         1,
         1,
@@ -200,7 +200,7 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/app/models/school.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/app/models/school.rb": [
         1,
         1,
         1,
@@ -218,7 +218,7 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/config/routes.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/config/routes.rb": [
         1,
         null,
         1,
@@ -283,42 +283,25 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/app/helpers/application_helper.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/app/helpers/classroom_helper.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/app/helpers/classroom_helper.rb": [
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/app/helpers/schools_helper.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/app/helpers/schools_helper.rb": [
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/app/controllers/classroom_controller.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/app/controllers/classrooms_controller.rb": [
         1,
         1,
         1,
         null,
         1,
         4,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        4,
-        null,
-        null,
-        1,
-        5,
-        5,
-        4,
-        4,
-        null,
-        1,
-        null,
         null,
         null,
         1,
@@ -326,6 +309,23 @@
         null,
         1,
         5,
+        null,
+        null,
+        1,
+        6,
+        6,
+        5,
+        5,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        5,
         4,
         null,
         1,
@@ -340,26 +340,26 @@
         1,
         null,
         1,
-        10,
+        11,
         null,
         null,
         1,
-        28,
+        34,
         null,
         null,
         1,
-        15,
+        19,
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/app/controllers/application_controller.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/controllers/schools_controller_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/controllers/schools_controller_spec.rb": [
         1,
         null,
         1,
@@ -537,62 +537,179 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/app/controllers/schools_controller.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/app/controllers/schools_controller.rb": [
         1,
         1,
+        1,
+        8,
+        null,
+        null,
+        1,
+        null,
+        null,
         1,
         4,
         null,
         null,
         1,
+        7,
+        7,
+        5,
+        5,
+        null,
+        2,
+        2,
         null,
         null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        6,
+        4,
+        4,
+        null,
+        2,
+        2,
+        null,
+        null,
+        null,
+        1,
+        4,
+        4,
+        4,
+        null,
+        null,
+        1,
+        null,
+        1,
+        22,
+        null,
+        null,
+        1,
+        13,
+        null,
+        null
+      ],
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/features/classroom_spec.rb": [
+        1,
+        null,
+        1,
+        3,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/features/school_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        4,
         1,
         3,
         null,
         null,
         1,
-        6,
-        6,
-        4,
-        4,
+        1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        3,
+        3,
+        3,
+        1,
         2,
         2,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        6,
-        4,
-        4,
-        null,
-        2,
         2,
         null,
         null,
-        null,
         1,
-        4,
-        4,
-        4,
+        1,
+        1,
         null,
         null,
         1,
-        null,
         1,
-        15,
-        null,
-        null,
         1,
-        12,
+        null,
+        null,
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/helpers/classroom_helper_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/features/schools_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/helpers/classrooms_helper_spec.rb": [
         1,
         null,
         null,
@@ -609,7 +726,7 @@
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/helpers/schools_helper_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/helpers/schools_helper_spec.rb": [
         1,
         null,
         null,
@@ -626,7 +743,7 @@
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/models/classroom_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/models/classroom_spec.rb": [
         1,
         null,
         1,
@@ -651,7 +768,7 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/app/models/classroom.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/app/models/classroom.rb": [
         1,
         1,
         1,
@@ -661,7 +778,7 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/models/school_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/models/school_spec.rb": [
         1,
         null,
         1,
@@ -694,56 +811,56 @@
         null,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/views/classroom/edit.html.erb_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/views/classroom/edit.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/views/classroom/index.html.erb_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/views/classroom/index.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/views/classroom/new.html.erb_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/views/classroom/new.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/views/classroom/show.html.erb_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/views/classroom/show.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/views/schools/edit.html.erb_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/views/schools/edit.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/views/schools/index.html.erb_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/views/schools/index.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/views/schools/new.html.erb_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/views/schools/new.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         null
       ],
-      "/Users/matthewhadley/Desktop/DPL/week5/assignments/school_app/spec/views/schools/show.html.erb_spec.rb": [
+      "/Users/matthewhadley/workspace/DPL/week5/assignments/school_app/spec/views/schools/show.html.erb_spec.rb": [
         1,
         null,
         1,
@@ -751,6 +868,6 @@
         null
       ]
     },
-    "timestamp": 1465514566
+    "timestamp": 1465775251
   }
 }

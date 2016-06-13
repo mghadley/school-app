@@ -1,0 +1,6 @@
+@import "materialize/components/color";
+$primary-color: teal !default;
+$secondary-color: color("orange", "lighten-2") !default;
+@import "materialize";
+@import "app";
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);

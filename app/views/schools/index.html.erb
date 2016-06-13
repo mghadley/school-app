@@ -1,2 +1,17 @@
-<h1>Schools#index</h1>
-<p>Find me in app/views/schools/index.html.erb</p>
+<h1 id='schools-header' class='center'>All Schools</h1>
+
+<div class='container'>
+	<% if @schools.any? %>
+		<% @schools.each do |school| %>
+			<h3 id='school-title'><%= link_to school.name, school_path(school) %></h3>
+		<% end %>
+	<% else %>
+		<h2 id='no-schools'>No schools yet :/</h2>
+	<% end %>
+</div>
+
+<hr>
+
+<div>
+	<%= link_to 'Create new school', new_school_path, id: 'new-school-btn' %>
+</div>

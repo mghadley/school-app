@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe ClassroomController, type: :controller do
+RSpec.describe ClassroomsController, type: :controller do
   let(:school) {FactoryGirl.create(:school)}
   let(:classroom) {FactoryGirl.create(:classroom, school_id: school.id)}
   let(:classroom2) {FactoryGirl.create(:classroom, school_id: school.id)}
@@ -159,7 +159,7 @@ RSpec.describe ClassroomController, type: :controller do
       expect(response).to have_http_status(302)
     end
 
-    it "assingns instance variable" do
+    it "assigns instance variable" do
       delete :destroy, { school_id: school.id, id: classroom.id }
       expect(assigns(:classroom)).to eq(classroom)
     end
@@ -174,7 +174,7 @@ RSpec.describe ClassroomController, type: :controller do
 
     it "redirects to index" do
       delete :destroy, { school_id: school.id, id: classroom.id }
-      expect(response).to redirect_to(school_classroom_index_path(assigns(:school)))
+      expect(response).to redirect_to(school_classrooms_path(assigns(:school)))
     end
   end
 

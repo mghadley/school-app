@@ -1,2 +1,28 @@
-<h1>Schools#show</h1>
-<p>Find me in app/views/schools/show.html.erb</p>
+<h1 id='school-heading' class='center'><%= @school.name %></h1>
+
+<div class='container'>
+	<div id='state'>
+		Located in <%= @school.state %>
+	</div>
+	<div id='capacity'>
+		Capacity: <%= @school.capacity %> students
+	</div>
+	<div id='student-count'>
+		Current number of students: <%= @school.student_count %>
+	</div>
+</div>
+
+<div class='container'>
+	<% if @school.classrooms.any? %>
+		<h3 id='classrooms-subheading'>Classrooms</h3>
+		<% @school.classrooms.each do |classroom| %>
+			<div>
+				<h4><%= link_to classroom.name, school_classroom_path(@school, classroom), class: 'classroom-name'%></h4>
+			</div>
+		<% end %>
+	<% end %>
+</div>
+
+<hr>
+
+<%= link_to 'Add classroom', new_school_classroom_path(@school), id: 'new-classroom-btn' %>

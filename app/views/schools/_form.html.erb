@@ -1,0 +1,23 @@
+<%= form_for @school do |f| %>
+	<div>
+		<%= f.label :name %>
+		<%= f.text_field :name %>
+	</div>
+
+	<div>
+		<%= f.label :state %>
+		<%= f.text_field :state %>
+	</div>
+
+	<div>
+		<%= f.label :capacity %>
+		<%= f.number_field :capacity %>
+	</div>
+
+	<div>
+		<%= f.label :student_count %>
+		<%= f.number_field :student_count %>
+	</div>
+
+	<%= f.submit nil, id: 'create-school-btn', class: 'btn' %>
+<% end %>

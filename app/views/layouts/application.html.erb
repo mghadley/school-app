@@ -7,7 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+	<nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo">Schoolz</a>
+      <ul id="nav-mobile" class="right">
+        <li><%= link_to 'All Schools', schools_path %></li>
+      </ul>
+    </div>
+  </nav>
 <%= yield %>
 
 </body>

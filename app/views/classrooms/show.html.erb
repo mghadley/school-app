@@ -1,0 +1,13 @@
+<h1 id='classroom-heading' class='center'><%= @classroom.name %></h1>
+
+<div class='container'>
+	<div>
+		School: <%= link_to @school.name, school_path(@school), id: 'belongs-to-school' %>
+	</div>
+	<div id='subject'>
+		Subject: <%= @classroom.subject %>
+	</div>
+	<div id='student-count'>
+		Student Count: <%= @classroom.student_count %>
+	</div>
+</div>
